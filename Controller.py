@@ -9,3 +9,7 @@ def get_user_answer():
 
 def save_user_result_to_db():
 	print('data saved')
+
+
+def print_conglaturation_message():
+	print('conglaturations!!!!')
