@@ -6,6 +6,7 @@ def init_db(instance):
 	else 
 		print('db getted')
 
+<<<<<<< HEAD
 def get_all_questions_from_db(session)
 	print('questions getted')
 
@@ -16,3 +17,5 @@ def update_db(session)
 
 def delete_user(session)
 	print('user deleted')
+=======
+>>>>>>> lab3.2
