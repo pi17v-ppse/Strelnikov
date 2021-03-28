@@ -22,3 +22,6 @@ def delete_user(session)
 def add_new_question(session):
 	print('question added')
 
+
+def delete_db(session):
+	print('db deleted')
