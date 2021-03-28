@@ -8,3 +8,7 @@ def init_db(instance):
 
 def get_all_questions_from_db(session)
 	print('questions getted')
+
+
+def update_db(session)
+	print('update db')
