@@ -23,5 +23,5 @@ def add_new_question(session):
 	print('question added')
 
 
-def delete_db(session):
-	print('db deleted')
+def test_connection(session):
+	print("okey")
