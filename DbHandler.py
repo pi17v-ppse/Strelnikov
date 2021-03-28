@@ -12,3 +12,7 @@ def get_all_questions_from_db(session)
 
 def update_db(session)
 	print('update db')
+
+
+def delete_user(session)
+	print('user deleted')
