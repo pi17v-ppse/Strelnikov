@@ -17,3 +17,7 @@ def print_conglaturation_message():
 
 def update_user_rating():
 	print('rating updated')
+
+
+def exit_from_statistic():
+	print('close stats')
