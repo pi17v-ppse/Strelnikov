@@ -13,3 +13,7 @@ def save_user_result_to_db():
 
 def print_conglaturation_message():
 	print('conglaturations!!!!')
+
+
+def update_user_rating():
+	print('rating updated')
