@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="ru">                                        
+    <title>Кто хочет стать миллионером?</title>
+    <sect1>
+        <title>Описание приложения</title>
+        <para>
+            В игре "Кто хочет стать миллионером?" пользователю предоставляется возможность
+            проверить свою эрудицию и заработать денег (в данной версии - очков). 
+            В каждом раунде будет задан вопрос и предложено 4 варианта ответа. С каждым 
+            раундом сложность вопросов будет увеличиваться, как и награда за правильный
+            ответ. Итог игры - либо ответить на все вопросы и заработать миллион или оплошать и начать игру снова.
+        </para>
+        <para>
+            В приложении имеются вкладки "Игра", "Об игре" и "Правила". Нажав на вкладку "Игра" появляется экран, где можно начать новую игру и загрузить игру. При нажатии на вкладку "Об игре" появляется справочное меню. На вкладке "Правила" находятся правила игры. Также в игре предусмотренна система подсказок.
+        </para>
+        <para>
+            Подсказки могут быть нескольких видов:            
+        </para>
+        <orderedlist>
+            <listitem>
+                <para>50:50 (убираются 2 неправильный ответа) </para>
+            </listitem>
+            <listitem>
+                <para>Звонок другу (возможность получить правильный ответ от компьютера, не всегда точен)</para>
+            </listitem>
+            <listitem>
+                <para>Помощь зала (распределение 100% по вариантам ответа, в пользу наиболее близких к правильному) </para>
+            </listitem>
+          </orderedlist> 
+    </sect1>
+    <sect1>
+        <title>Скриншоты приложения</title>
+        <figure>
+            <title>Главная форма</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="https://slotobzor.com/wp-content/uploads/2018/12/SHablon-igry-Kto-hochet-stat-millionerom.jpeg" width="700"/>
+                </imageobject>
+            </mediaobject>
+        </figure>
+        
+        <figure>
+            <title>Пример игры</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="https://avatars.mds.yandex.net/get-zen_doc/29485/pub_5a43d5b68139bacfa77105ed_5a43d6d78139bacfa77105f2/scale_1200" width="700" />
+                </imageobject>
+            </mediaobject>
+        </figure>
+    </sect1>
+<sect1>
+    <title>Пример кода</title>
+    <para>
+        <example>
+            <title></title>
+            <para>
+                <programlisting>     
+'''
+Класс, который получает запросы пользователя и 
+управляет вводом-выводом информации в программе
+'''
+
+'''
+Метод, который выводи вопрос с вариантами ответа
+@return dict
+'''
+def print_question_with_variants():
+	print("question with variants")
+
+'''
+Метод, который получает ответ пользователя
+@return str
+'''
+def get_user_answer():
+	print('user answer getted')
+
+'''
+Метод, который выполняет сохранение данных в БД
+@return void
+'''
+def save_user_result_to_db():
+	print('data saved')
+
+'''
+Метод, который выводит сообщение-поздравление в конце игры
+@return void
+'''
+def print_conglaturation_message():
+	print('conglaturations!!!!')
+
+'''
+Метод для обновления рейтинга пользователя
+и его вывода на экран
+@return str
+'''
+def update_user_rating():
+	print('rating updated')
+
+'''
+Метод, выполняющий возврат из статистики в главное меню
+@return void
+'''
+def exit_from_statistic():
+	print('close stats')
+                 </programlisting>
+            </para>
+        </example>  
+    </para>
+</sect1>
+</chapter>
